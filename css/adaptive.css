@@ -172,7 +172,7 @@
 
     /***** section 5 *****/
     .cast-con {
-        height: 200px;
+        height: 360px;
         padding: 0;
         width: 100%;
     }
@@ -221,7 +221,7 @@
     .flex-con {
         width: 496px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin: 0;
         align-items: flex-start;
     }
