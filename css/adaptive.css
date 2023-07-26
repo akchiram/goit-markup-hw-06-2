@@ -82,7 +82,7 @@
     /***** MAIN *****/
 
     /***** section 1 *****/
-    .motto {
+    .motto {flex-wrap: wrap;
         height: 436px;
         width: 100%;
         background-image: linear-gradient(to bottom,
@@ -161,10 +161,12 @@
         display: flex;
         flex-direction: row;
         width: 100%;
+        flex-wrap: wrap;
     }
 
     .section-team {
         height: 1224px;
+        padding: 96px;
     }
 
 
