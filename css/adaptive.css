@@ -160,7 +160,7 @@
     .list-team {
         display: flex;
         flex-direction: row;
-        width: 100%;
+        width: auto;
         flex-wrap: wrap;
     }
 
