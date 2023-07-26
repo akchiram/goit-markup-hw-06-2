@@ -354,7 +354,7 @@
         width: 496px;
         height: 120px;
         font-size: 56px;
-        margin-bottom: 48px;
+        margin-bottom: 48px;</div>
         font-family: "Roboto", sans-serif;
     }
 
@@ -526,6 +526,19 @@
     .foot-email {
         width: 264px;
     }
+
+    .list-team {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+    }
+
+
+    .cast-con {
+  height: 200px;
+  padding: 0;
+  width: 100%;
+}
 
     /*================MODAL==============*/
 
