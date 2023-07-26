@@ -98,7 +98,7 @@
                     rgba(46, 47, 66, 0.7)),
                 url(../images/office-people-desktop@2x.jpg);
         }
-    }
+    
 
 
 
@@ -245,6 +245,9 @@
     }
 
 }
+
+
+
 /*! desktop */
 
 @media (min-width: 1158px) {
