@@ -7,7 +7,7 @@
 }
 
 /*! tablet */
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .mob-menu,
     .menu-con{
         display: none;
