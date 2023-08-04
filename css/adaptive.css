@@ -4,6 +4,11 @@
     .element{
         width: 100%;
     }
+
+    .flex-con{
+        gap: 72px;
+        padding-bottom: 72px;
+    }
 }
 
 /*! tablet */
@@ -105,7 +110,6 @@
 
     .motto-text {
         width: 496px;
-        height: 120px;
         font-size: 56px;
         margin-bottom: 36px;
         font-family: "Roboto", sans-serif;
@@ -143,17 +147,12 @@
         letter-spacing: 0.32px; 
     }
 
-    .section-title-last {
-        height: 72px;
-        margin-bottom: 0;
-    }
 
     .section-title-before {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         height: 72px;
-        margin-bottom: 0;
     }
 
     /***** section 4 *****/
@@ -171,21 +170,21 @@
 
 
     /***** section 5 *****/
-    .cast-con {
+    /* .cast-con {
         height: 360px;
-        padding: 0;
         width: 100%;
+    } */
+    .cast-co{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+
 
     .cast-element {
         width: 168px;
     }
 
-    .cust-list {
-        height: 308px;
-        width: 553px;
-
-    }
 
     /***** footer *****/
     .logo-footer {
@@ -196,7 +195,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        height: 272px;
         margin: 0 auto;
         width: 553px;
         }
@@ -215,7 +213,6 @@
 
     .social {  
         display: flex;
-        margin: 0;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -229,6 +226,7 @@
         flex-direction: row;
         margin: 0;
         align-items: flex-start;
+        padding-bottom: 72px;
     }
 
     .form-foot {
@@ -327,8 +325,6 @@
 
     .container {
         max-width: 1158px;
-        padding-left: 0;
-        padding-right: 0;
         position: relative;
     }
 
@@ -338,6 +334,11 @@
     }
 
     /***** section 1 *****/
+    .motto{
+        padding: 188px 0;
+        background-size:auto;
+        height: 600px;
+    }
 
     .motto-text {
         width: 496px;
@@ -366,7 +367,6 @@
     .section-list {
         display: flex;
         flex-wrap: nowrap;
-        height: 224px;
         width: 1128px;
     }
 
@@ -381,16 +381,11 @@
     }
 
     .section-title {
-        height: 72px;
-    }
-
-    .section-title-last {
-        margin-bottom: 72px;
+        font-weight: 400;
         height: 72px;
     }
 
     .section-title-before {
-        margin-bottom: 72px;
         height: 72px;
     }
 
@@ -448,13 +443,15 @@
     }
 
     /***** section 5 *****/
-    .cast-con {
+    .cast-co {
         height: 200px;
     }
 
     .cust-list {
+        flex-direction: row;
         height: 88px;
         width: 1128px;
+        justify-content: center;
     }
 
     .cast-link {
@@ -520,11 +517,11 @@
     }
 
 
-    .cast-con {
+    /* .cast-con {
   height: 200px;
   padding: 0;
   width: 100%;
-}
+} */
 
     /*================MODAL==============*/
 

@@ -371,7 +371,7 @@ body {
             rgba(46, 47, 66, 0.7)),
         url(../images/office-people-phone.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     margin: 0 auto;
     height: 432px;
@@ -454,8 +454,11 @@ body {
     padding: 96px 0;
 }
 
+.general-con {
+gap: 72px;
+}
+
 .element {
-    width: 396px;
     justify-content: center;
 }
 
@@ -486,7 +489,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
 }
 
 .section-title-before {
@@ -494,7 +496,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
 }
 
 .section-title-last {
@@ -502,7 +503,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 0;
 }
 
 /***** section 3 *****/
@@ -627,8 +627,7 @@ body {
     padding-bottom: 96px;
 }
 
-.cast-con {
-    height: 520px;
+.cast-co {
 }
 
 .customers {
@@ -643,10 +642,9 @@ body {
 .cust-list {
     display: flex;
     gap: 22px;
-    height: 408px;
     flex-wrap: wrap;
-    flex-direction: column;
     row-gap: 72px;
+    justify-content: center;
 }
 
 .cast-element {
@@ -699,9 +697,6 @@ body {
 
 .social {
     text-align: center;
-    padding: 0;
-    padding-bottom: 72px;
-    margin-top: 72px;
 }
 
 .span-footer {
