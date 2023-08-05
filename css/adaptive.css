@@ -150,10 +150,21 @@
 
 
     .section-title-before {
+        font-family: Roboto;
         font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        height: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+    }
+
+    .section-title-last {
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
     }
 
     /***** section 4 *****/
@@ -387,6 +398,12 @@
     }
 
     .section-title-before {
+        font-weight: 400;
+        height: 72px;
+    }
+
+    .section-title-last{
+        font-weight: 400;
         height: 72px;
     }
 
@@ -446,6 +463,7 @@
     /***** section 5 *****/
     .cast-co {
         height: 200px;
+        width: 1440px;
     }
 
     .cust-list {
