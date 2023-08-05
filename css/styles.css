@@ -375,6 +375,7 @@ body {
     background-position: center;
     margin: 0 auto;
     height: 432px;
+    max-width: 1440px;
 }
 
 @media (min-resolution: 192dpi) {
@@ -458,6 +459,12 @@ body {
 gap: 72px;
 }
 
+
+.flex-con{
+    gap: 72px;
+    padding-bottom: 72px;
+}
+
 .element {
     justify-content: center;
 }
@@ -465,8 +472,10 @@ gap: 72px;
 .section-list {
     justify-content: center;
     row-gap: 48px;
-    gap: 24px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
 }
 
 .list-text {
@@ -482,6 +491,7 @@ gap: 72px;
     text-align: left;
     font-style: normal;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .section-title {
@@ -640,14 +650,22 @@ gap: 72px;
 }
 
 .cust-list {
-    display: flex;
+    /* display: flex;
     gap: 22px;
     flex-wrap: wrap;
     row-gap: 72px;
+    justify-content: center; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    row-gap: 16px;
+    row-gap: 72px;
+    align-items: center;
     justify-content: center;
 }
 
 .cast-element {
+    width: calc((100% - 16px) / 2);
     height: 88px;
     transition: border-color var(--transition), color var(--transition);
 }

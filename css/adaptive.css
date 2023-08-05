@@ -5,10 +5,6 @@
         width: 100%;
     }
 
-    .flex-con{
-        gap: 72px;
-        padding-bottom: 72px;
-    }
 }
 
 /*! tablet */
@@ -90,7 +86,6 @@
     .motto {
         flex-wrap: wrap;
         height: 436px;
-        width: 100%;
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
@@ -122,10 +117,16 @@
     /***** section 2 ****/
 
     .section-list {
-        display: flex;
+        flex-direction: row;
+        column-gap: 24px;
         flex-wrap: wrap;
+    }
+
+    .general-con{
+        display: grid;
         column-gap: 24px;
         row-gap: 72px;
+        grid-template-columns: auto;
     }
 
     .element {
@@ -178,6 +179,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 584px;
     }
 
 
@@ -207,7 +209,6 @@
     }
 
     .foot-logo-text {
-        margin-right: 24px;
         padding-bottom: 0;
     }
 
@@ -221,12 +222,12 @@
         align-items: flex-start;
     }
     .flex-con {
-        width: 496px;
         display: flex;
         flex-direction: row;
         margin: 0;
         align-items: flex-start;
         padding-bottom: 72px;
+
     }
 
     .form-foot {
@@ -472,7 +473,6 @@
     }
 
     .foot-logo-text {
-        margin-right: 120px;
         padding-bottom: 0;
     }
 
@@ -490,8 +490,8 @@
     }
 
     .flex-con {
-        width: 592px;
         flex-direction: row;
+        padding-right: 80px;
     }
 
     .form-foot {
@@ -502,9 +502,6 @@
         width: 75px;
     }
 
-    .con-form {
-        margin-left: 80px;
-    }
 
     .foot-email {
         width: 264px;
